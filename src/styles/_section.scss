@@ -1,0 +1,25 @@
+@mixin paragrafFunc ($bgColor, $padd) {
+    font-size: 12px;
+    line-height: normal;
+    color: black;
+    background-color: $bgColor;
+    padding: $padd;
+}
+
+section {
+    padding: 0 10%;
+    h2 {
+        color: darkblue;
+        margin-bottom: 20px;
+    }
+    p {
+        &:hover{
+            background-color: red
+        }
+        @include paragrafFunc(rgb(255, 167, 167), 50px)
+    }
+    p:last-of-type {
+        @include paragrafFunc(rgb(107, 83, 194), 10px)
+    }
+}
+

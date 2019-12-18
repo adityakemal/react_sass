@@ -1,24 +1,70 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div>
+          <h1>hello world im using SASS</h1> <br/>
+          <button>call me</button>
+        </div>
       </header>
+      <section>
+        <h2>we are section 1</h2>
+        <p>fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        </p>
+        <h2>we are section 2</h2>
+        <p>fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        </p>
+        <h2>we are section 3</h2>
+        <p>fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        fjsldf lksjdhflksa lskdhflkas
+        </p>
+        <button>yes me!</button>
+      </section>
+
+      <div className='contact'>
+        <div>
+          <h2>email me! //ini inherit dari style di header.scss</h2> 
+          <form>
+            <input type='text'/>
+            <button>send </button>
+          </form>
+
+        </div>
+      </div>
+      <footer>
+        i m footer oke find
+      </footer>
+      
+ 
     </div>
   );
 }

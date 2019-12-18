@@ -1,0 +1,12 @@
+ //config.scss harus paling atas
+// @import './styles/_config.scss'; 
+// @import './styles/_buttons.scss';
+// @import './styles/_header.scss';
+
+// penulisan import lebih gampang bisa menghilangkan underscore dan type filenya (.scss) contoh :
+
+@import './styles/variables'; 
+@import './styles/header';
+@import './styles/section';
+@import './styles/contact';
+@import './styles/footer';

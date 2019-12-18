@@ -1,0 +1,11 @@
+// ini inherit dari header.scss
+// dan replace bg colornya
+.contact {
+    @extend header;
+    background-color: darkorange;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+}

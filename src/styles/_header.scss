@@ -1,0 +1,18 @@
+header{
+    background-color: $kuning;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    h1{
+        color: cadetblue;
+        margin: 0;
+    }
+    button{
+        background-color: chartreuse;
+        &:hover{
+            background-color: crimson;
+            padding: 20px;
+        }
+    }
+}
